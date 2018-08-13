@@ -8,8 +8,8 @@
 		search
 	</title>
 
-	<link rel="stylesheet" type="text/css" href="css/cssmodule.css"></link>
-	<script src="js/modulejs.js"></script>
+	<link rel="stylesheet" type="text/css" href="cssmodule.css"></link>
+	<script src="modulejs.js"></script>
 
 </head>
 
@@ -21,7 +21,7 @@
 
 
 <ul>
-  <li><img class="logo-image-for-profile" src="images/logo.jpeg"></li>
+  <li><img class="logo-image-for-profile" src="logo.jpeg"></li>
   <li><a for="navigation"  href="profile.html">Home</a></li>
   <li><a for="navigation" href="recent_questions.html">Recent Questions</a></li>
   <li><a for="navigation" href="my_quizes.html">My questions</a></li>
@@ -38,14 +38,20 @@
 
 <div class="large-scrollable-content">
 	<center><span class="page-heading">You are viewing answers to the question:</span></center>
-	<form>
-		<input type="submit" name="submit" value="quote the exact question the user clicked" href="manipulation.html">
+	<form action="question_options.html">
+		<input type="submit" name="submit" value="quote the exact question the user clicked">
 	</form>
-	<textarea readonly="True"> &lt Me &gt An answer to a question</textarea>
-	<textarea readonly="True"> &lt Me &gt An answer to a question</textarea>
-	<textarea readonly="True"> &lt Me &gt An answer to a question</textarea>
-	<textarea readonly="True"> &lt Me &gt An answer to a question</textarea>
-	<form>
+	<table>
+		<tr class="links_to_comments" ondblclick="goToComments();"><td class="poster_name">Dickson Mirikwa: 12/8/2018 1.30 PM</td><td><textarea readonly="True">An answer to a question</textarea></td></tr>
+		<tr class="links_to_comments" ondblclick="goToComments();"><td class="poster_name">Dickson Mirikwa: 12/8/2018 1.30 PM</td><td><textarea readonly="True">An answer to a question</textarea></td></tr>
+		<tr class="links_to_comments" ondblclick="goToComments();"><td class="poster_name">Dickson Mirikwa: 12/8/2018 1.30 PM</td><td><textarea readonly="True">An answer to a question</textarea></td></tr>
+		<tr class="links_to_comments" ondblclick="goToComments();"><td class="poster_name">Dickson Mirikwa: 12/8/2018 1.30 PM</td><td><textarea readonly="True">An answer to a question</textarea></td></tr>
+		<tr class="links_to_comments" ondblclick="goToComments();"><td class="poster_name">Dickson Mirikwa: 12/8/2018 1.30 PM</td><td><textarea readonly="True">An answer to a question</textarea></td></tr>
+		<tr class="links_to_comments" ondblclick="goToComments();"><td class="poster_name">Dickson Mirikwa: 12/8/2018 1.30 PM</td><td><textarea readonly="True">An answer to a question</textarea></td></tr>
+		<tr class="links_to_comments" ondblclick="goToComments();"><td class="poster_name">Dickson Mirikwa: 12/8/2018 1.30 PM</td><td><textarea readonly="True">An answer to a question</textarea></td></tr>
+		<tr class="links_to_comments" ondblclick="goToComments();"><td class="poster_name">Dickson Mirikwa: 12/8/2018 1.30 PM</td><td><textarea readonly="True">An answer to a question</textarea></td></tr>
+    </table>
+	<form action="answers.html" method="POST">
 		<textarea placeholder="Drop your answer" name="ask"></textarea>
 		<input type="submit" name="submit" value="Post">
 	</form>
