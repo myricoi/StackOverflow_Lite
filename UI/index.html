@@ -8,15 +8,15 @@
 		log in
 	</title>
 
-	<link rel="stylesheet" type="text/css" href="css/cssmodule.css"></link>
-	<script src="js/modulejs.js"></script>
+	<link rel="stylesheet" type="text/css" href="cssmodule.css"></link>
+	<script src="modulejs.js"></script>
 
 </head>
 
 <body>
 	<div class="input-panel">
 		<p class="page-heading">StackOverFlow_Lite</p>
-		<form action="profile.html" method="post">
+		<form action="profile.html" method="post" onsubmit="logIn();">
 			<input type="text" id="username" name="username" placeholder="username or email">
 			<input type="password" id="pass" name="password" placeholder="password">
 			<input type="submit" value="Log In">
