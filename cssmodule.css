@@ -1,20 +1,21 @@
 
 .input-panel{
-	position:absolute;
-	width:40%;
-	border: none;
-	height: 50%;
-	top:30%;
-	left: 30%;
-	border-radius: 5px;
+    position:absolute;
+    width:40%;
+    border: none;
+    height: 50%;
+    top:30%;
+    left: 30%;
+    border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+    overflow: auto;
 }
 
 .input-panel[for=signup]{
-	position:absolute;
-	top:25%;
-	height:80%;
+    position:absolute;
+    top:25%;
+    height:80%;
 
 }
 
@@ -106,9 +107,9 @@ a[id=forgot-pass]:link, a[id=forgot-pass]:visited {
 }
 
 p.page-heading{
-	font-weight: 900;
-	text-align: center;
-	color: rgb(23,100,200)
+    font-weight: 900;
+    text-align: center;
+    color: rgb(23,100,200)
 }
 
 
@@ -160,6 +161,22 @@ table{
     ul{
         display:none;
     }
+
+    .large-scrollable-content{
+        margin-left: 0;
+    }
+
+    .input-panel, .input-panel[for=signup]{
+        left:0;
+        width: 100%;
+        top:10%;
+        height:auto;
+    }
+
+
+
+
+
 
     .mobilenav {
   overflow: hidden;
