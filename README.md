@@ -1,7 +1,5 @@
 
-[![Build Status](https://travis-ci.org/myricoi/StackOverflow_Lite.svg?branch=feature%2Fcreate-api)](https://travis-ci.org/myricoi/StackOverflow_Lite)
-
-[![Test Coverage](https://api.codeclimate.com/v1/badges/d85dfd3d2d0db750d695/test_coverage)](https://codeclimate.com/github/myricoi/StackOverflow_Lite/test_coverage)
+[![Build Status](https://travis-ci.org/myricoi/StackOverflow_Lite.svg?branch=feature%2Fcreate-api)](https://travis-ci.org/myricoi/StackOverflow_Lite)[![Test Coverage](https://api.codeclimate.com/v1/badges/d85dfd3d2d0db750d695/test_coverage)](https://codeclimate.com/github/myricoi/StackOverflow_Lite/test_coverage)
 
 
 **StackOverflow_lite Web Application**
