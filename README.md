@@ -32,5 +32,22 @@ j) Users can view questions with the most answers.
  
 link https://www.pivotaltracker.com/n/projects/2189407
 
+The api Endpoints are hosted on heroku and can be accessed using the link https://dixon-stackoverflow-lite.herokuapp.com/
+Add the 'api/v1' to the root to access documentation and usage of the endpoints or simply use the link https://dixon-stackoverflow-lite.herokuapp.com/api/v1/.Here, a web document is provided breaking down usage of each endpoint.
+
+**How to test the endpoints using postman**
+-copy the root link provided above and paste it on postman requests bar.
+-follow the documentation provided at https://dixon-stackoverflow-lite.herokuapp.com/api/v1/ to check each endpoint
+
+**Running tests locally**
+- >>git clone https://github.com/myricoi/StackOverflow_Lite myproject
+- >>cd myproject
+- >>python3 -m venv venv /python -m venv venv (linix/windows respectively)
+- >> . venv/bin/activate or venv\scripts\activate (linux or windows respectively)
+- >>pip install -r requirements.txt
+- >>pip install pytest
+- >>pytest
+
+
 
 
