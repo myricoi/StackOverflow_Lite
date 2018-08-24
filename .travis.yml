@@ -1,16 +1,14 @@
-language: python
-python:
-  - "3.4"
-  - "3.5" 
-  - "3.5-dev"
-  - "3.6"
-  - "3.6-dev"
-  - "3.7-dev"
-# command to install dependencies
-install:
-  - pip install -r Requirements.txt
-# command to run tests
-script:
-  - pytest
+language: python	
+python:	
+ - "3.5.2"	
+cache: pip	
+install:	
+ - pip install -r requirements.txt
+ - pip install coveralls
+ - pip install codeclimate-test-reporter
+
+script:	
+ - nosetests tests --with-coverage 
 after_success:
-  - coveralls
+ - coveralls
+ - codeclimate-test-reporter
