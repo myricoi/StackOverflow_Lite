@@ -25,3 +25,5 @@ urllib3==1.23
 Werkzeug==0.14.1
 wrapt==1.10.11
 python-coveralls==2.9.1
+pytest==3.7.2
+PyYAML==3.13
