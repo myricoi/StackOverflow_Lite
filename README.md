@@ -1,5 +1,5 @@
 
-[![Build Status](https://travis-ci.org/myricoi/StackOverflow_Lite.svg?branch=feature%2Fcreate-api)](https://travis-ci.org/myricoi/StackOverflow_Lite)  [![Coverage Status](https://coveralls.io/repos/github/myricoi/StackOverflow_Lite/badge.svg?branch=feature%2Fdevelop-159593458)](https://coveralls.io/github/myricoi/StackOverflow_Lite?branch=feature%2Fdevelop-159593458)
+[![Build Status](https://travis-ci.org/myricoi/StackOverflow_Lite.svg?branch=feature%2Fcreate-api)](https://travis-ci.org/myricoi/StackOverflow_Lite)  [![Coverage Status](https://coveralls.io/repos/github/myricoi/StackOverflow_Lite/badge.svg?branch=feature%2Fdevelop-159593458)](https://coveralls.io/github/myricoi/StackOverflow_Lite?branch=feature%2Fdevelop-159593458) 7078a78df4ee0d433d6c1681f771e27b1bd3c539005df51b5d89e86b48a76b7f
 
 
 
